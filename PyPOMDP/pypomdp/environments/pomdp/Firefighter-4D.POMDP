@@ -1,0 +1,54 @@
+## Firefighter.4D.POMDP
+
+discount: 0.95
+values: reward
+states: notengagedmanu engagedmanu notengagedauto engagedauto 
+actions: manu auto
+observations: onotengaged oengaged
+
+start: 0.25 0.25 0.25 0.25
+
+# action manu
+T: manu
+TO BE COMPLETED
+
+
+# action auto
+T: auto
+TO BE COMPLETED
+
+O: manu : notengagedmanu : onotengaged TO BE COMPLETED
+O: manu : notengagedmanu : oengaged TO BE COMPLETED
+ 
+O: manu : engagedmanu : onotengaged TO BE COMPLETED
+O: manu : engagedmanu : oengaged TO BE COMPLETED
+
+O: manu : notengagedauto : onotengaged TO BE COMPLETED
+O: manu : notengagedauto : oengaged TO BE COMPLETED
+
+O: manu : engagedauto : onotengaged TO BE COMPLETED
+O: manu : engagedauto : oengaged TO BE COMPLETED
+
+O: auto : notengagedmanu : onotengaged TO BE COMPLETED
+O: auto : notengagedmanu : oengaged TO BE COMPLETED
+ 
+O: auto : engagedmanu : onotengaged TO BE COMPLETED
+O: auto : engagedmanu : oengaged TO BE COMPLETED
+
+O: auto : notengagedauto : onotengaged TO BE COMPLETED
+O: auto : notengagedauto : oengaged TO BE COMPLETED
+
+O: auto : engagedauto : onotengaged TO BE COMPLETED
+O: auto : engagedauto : oengaged TO BE COMPLETED
+
+R: manu : engagedmanu : * : * TO BE COMPLETED
+R: manu : engagedauto : * : * TO BE COMPLETED
+
+R: manu : notengagedmanu : * : * TO BE COMPLETED
+R: manu : notengagedauto : * : * TO BE COMPLETED
+
+R: auto : engagedmanu : * : * TO BE COMPLETED
+R: auto : engagedauto : * : * TO BE COMPLETED
+
+R: auto : notengagedmanu : * : * TO BE COMPLETED
+R: auto : notengagedauto : * : * TO BE COMPLETED
