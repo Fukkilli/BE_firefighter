@@ -1,0 +1,21 @@
+2026-03-06 14:09:36,269 - EARL - INFO - ~~~ initialising experience replay ~~~
+2026-03-06 14:09:36,269 - EARL - INFO - ~~~ initialising simulation: 0~~~
+2026-03-06 14:09:36,272 - EARL - INFO - 
+                ++++++++++++++++++++++
+                Init Belief: [0.5, 0.5]
+                Max Play: 60
+                ++++++++++++++++++++++
+2026-03-06 14:10:50,102 - EARL - INFO - ~~~ initialising experience replay ~~~
+2026-03-06 14:10:50,104 - EARL - INFO - ~~~ initialising simulation: 0~~~
+2026-03-06 14:10:50,107 - EARL - INFO - 
+                ++++++++++++++++++++++
+                Init Belief: [0.5, 0.5]
+                Max Play: 60
+                ++++++++++++++++++++++
+2026-03-06 14:12:14,668 - EARL - INFO - ~~~ initialising experience replay ~~~
+2026-03-06 14:12:14,669 - EARL - INFO - ~~~ initialising simulation: 0~~~
+2026-03-06 14:12:14,672 - EARL - INFO - 
+                ++++++++++++++++++++++
+                Init Belief: [0.5, 0.5]
+                Max Play: 60
+                ++++++++++++++++++++++

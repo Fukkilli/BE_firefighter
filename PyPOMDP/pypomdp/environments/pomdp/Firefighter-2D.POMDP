@@ -22,11 +22,11 @@ O: auto
 0.858 0.142
 0.362 0.638
 
-R: manu : engaged : * : * 16.11
+R: manu : engaged : * : * 0.5548
 
-R: manu : notengaged : * : * 6.22
+R: manu : notengaged : * : * 0.2819
 
-R: auto : engaged : * : * 12.61
+R: auto : engaged : * : * 0.4176
 
-R: auto : notengaged : * : * 7.00
+R: auto : notengaged : * : * 0.3565
 

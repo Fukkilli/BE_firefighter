@@ -151,7 +151,7 @@ class PomdpRunReplay:
             
                     # getting features to play symbolic observation
                     features = self.getting_features_from_expfile(i, simulation, pomdp)
-                    #print(features)
+                    # print(features)
                     label = self.classif_model.predict(features)
                     #print(label)
                     # transforming label in pomdp observation
